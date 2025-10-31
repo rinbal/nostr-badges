@@ -43,8 +43,8 @@ Whether you’re issuing community achievements, personal collectibles, or custo
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd nostr-badges/cli/github
+git clone https://github.com/rinbal/nostr-badges.git
+cd nostr-badges
 ```
 
 ### 2. Set up a virtual environment
