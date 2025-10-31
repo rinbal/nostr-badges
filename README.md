@@ -7,7 +7,22 @@ It helps you **create badge definitions**, **award them to other users**, and **
 Whether you’re issuing community achievements, personal collectibles, or custom participation tokens — this tool streamlines every step, from creation to verification.
 
 > [!NOTE]
-> **Create, award, and manage Nostr badges — fully NIP-58 compliant.**  
+> **Create, award, and manage Nostr badges — fully NIP-58 compliant.**
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+  - [Awarding Badges](#awarding-badges)
+  - [Accepting Badges](#accepting-badges)
+- [Badge Definitions](#badge-definitions)
+  - [Creating Custom Badge Definitions](#creating-custom-badge-definitions)
+- [NIP-58 Compliance](#nip-58-compliance)
+- [Reference for Nostr Identity Creation (Testing stuff etc)](#reference-for-nostr-identity-creation-testing-stuff-etc)
+
 
 ## Features
 
