@@ -1,0 +1,11 @@
+{
+  "kind": 30009,
+  "content": "Badge Creator",
+  "tags": [
+    ["d", "badgecreator"],
+    ["name", "Badge Creator"],
+    ["description", "creator of a custom nostr badge"],
+    ["image", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/badgecreator_v03.png"],
+    ["thumb", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/badgecreator_v03.png"]
+  ]
+}

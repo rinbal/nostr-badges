@@ -1,0 +1,17 @@
+# Nostr Badge Creator Tool - Dependencies
+# All external packages required for the tool to function
+
+# Nostr protocol library for key management and event handling
+# Provides: PrivateKey, Event classes (from nostr.key and nostr.event)
+#nostr>=0.0.2
+git+https://github.com/jeffthibault/python-nostr.git
+
+# WebSocket client library for Nostr relay connections
+# Provides: websockets module for async WebSocket communication
+websockets>=12.0
+
+# Build tool for installing Python packages
+wheel
+
+# Web framework utilities (if needed for web interfaces)
+werkzeug

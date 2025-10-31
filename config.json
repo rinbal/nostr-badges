@@ -1,0 +1,20 @@
+{
+  "relay_urls": [
+    "wss://relay.damus.io",
+    "wss://nos.lol",
+    "wss://nostr.wine",
+    "wss://offchain.pub",
+    "wss://relay.snort.social",
+    "wss://relay.primal.net",
+    "wss://relay.nostr.band",
+    "wss://relay.0xchat.com",
+    "wss://relay.azzamo.net",
+    "wss://shu05.shugur.net"
+  ],
+  "data_path": "tool/data/",
+  "definitions_path": "tool/badges/definitions/",
+  "safe_mode": true,
+  "log_level": "info",
+  "version": "1.2",
+  "description": "Configuration file for the Nostr Badge Tool (NIP-58 compatible). Contains verified public relays supporting read/write operations."
+}

@@ -1,0 +1,11 @@
+{
+  "kind": 30009,
+  "content": "Nostr User",
+  "tags": [
+    ["d", "nostruser"],
+    ["name", "Nostr User"],
+    ["description", "nostr user :)"],
+    ["image", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/nostruser_v01.png"],
+    ["thumb", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/nostruser_v01.png"]
+  ]
+}
