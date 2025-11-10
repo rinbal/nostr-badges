@@ -156,8 +156,22 @@ Badge definitions are stored in `badges/definitions/` as JSON files. Each defini
 
 1. Create a new JSON file in `badges/definitions/`
 2. Follow the NIP-58 format above
-3. Use a unique identifier for the `d` tag
-4. Include name, description, and image URLs as needed
+3. Change the `"d"` tag (unique identifier)  
+4. Edit `"name"` and `"description"` to match your badge  
+5. Replace `"image"` and `"thumb"` URLs with your own image links  
+
+
+> [!IMPORTANT]
+> Your images **must be publicly accessible** so that Nostr clients can display them.  
+> In this repository, badge images are stored on **GitHub** using **raw links**, e.g.:  
+> https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/badgecreator_v03.png
+>
+> Alternatively, you can host your images on:
+> - Any public **file server**
+> - A **Nostr-integrated storage service** such as Blossom
+>
+> Ensure the links remain valid and accessible to all recipients.
+
 
 ## File Structure
 
