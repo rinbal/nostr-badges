@@ -198,6 +198,23 @@ async def main():
     if not recipients:
         print("❌ No recipients provided")
         return
+
+    # Normalize all recipients to HEX
+    normalized_recipients = []
+    for r in recipients:
+        try:
+            # normalize_pubkey is imported directly from badge_creator
+            normalized_hex = normalize_pubkey(r)
+            normalized_recipients.append(normalized_hex)
+        except Exception as e:
+            print(f"❌ Invalid recipient pubkey: {r}")
+            print(f"   {e}")
+            return
+
+    recipients = normalized_recipients  # ← final list of valid hex pubkeys
+    print("Recipients normalized to HEX:")
+    for h in recipients:
+        print("   ", h)
     
     print(f"\n🎯 Ready to award '{badge_name}' to {len(recipients)} recipient(s)")
     confirm = input("Proceed? (y/n): ").lower()
