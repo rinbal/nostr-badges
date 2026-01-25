@@ -5,7 +5,7 @@
     ["d", "nostruser"],
     ["name", "Nostr User"],
     ["description", "nostr user :)"],
-    ["image", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/nostruser_v01.png"],
-    ["thumb", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/nostruser_v01.png"]
+    ["image", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/nostrUser.png"],
+    ["thumb", "https://raw.githubusercontent.com/rinbal/nostr-badges/main/images/nostrUser.png"]
   ]
 }
