@@ -1,5 +1,13 @@
 # 🏅 Nostr Badge Creator Tool
 
+> [!WARNING]
+> This repository contains an **early prototype version** of the Nostr Badge Tool.  
+> Development has moved to a **newer and more advanced repository**.  
+>
+> This project is kept for **reference purposes**, but it is **no longer actively maintained**.
+>
+> 👉 Please use the updated version here:  
+> https://github.com/rinbal/Badges_GUI
 
 The **Nostr Badge Creator Tool** is a simple yet powerful command-line application for designing and handling badges within the Nostr ecosystem.  
 It helps you **create badge definitions**, **award them to other users**, and **manage the acceptance process** — supporting both **creator** and **recipient** perspectives.  
